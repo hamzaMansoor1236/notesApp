@@ -1,0 +1,28 @@
+.styling-link{
+    color:007AFF;
+    font-size: larger;
+    font-weight: semi-bold;
+ 
+}
+
+.custom-height{
+    height: 0.3rem  ;
+}
+
+.bg-blue{
+    background-color:#3A85F7;
+}
+.bg-grey{
+    background-color:rgba(206, 203, 211, 1);
+}
+.custom-styling-text-page-one{
+    font-size: 32.81px;
+    font-style: Nunito sans, sans-serif;
+}
+.custom-height-width{
+    width: auto;
+    height: auto;
+    
+}.max-height{
+    max-height: 342px;
+}

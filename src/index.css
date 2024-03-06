@@ -1,0 +1,17 @@
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  background-color:white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-style: Nunito sans, sans-serif;
+}
