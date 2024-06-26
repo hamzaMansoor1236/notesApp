@@ -3,17 +3,22 @@ import "../../src/pages/PageOne.css";
 import picOnePageOne from "../assets/picOnePageOne.png";
 import picTwoPageOne from "../assets/picTwoPageOne.png";
 import picThreePageOne from "../assets/picThreePageOne.png";
+import { useNavigate } from "react-router-dom";
 
 function PageOne() {
   const [count, setCount] = useState(0);
+const navigate= useNavigate();
 
   function nextScreen() {
-    if (count < 3) {
+    if (count < 2 ) {
       setCount((prev) => {
         return prev + 1;
       });
     }
-
+    else{
+      navigate('/dashboard');
+    }
+  
     console.log(count);
   }
 
